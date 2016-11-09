@@ -1,0 +1,11 @@
+USE [EIMS]
+GO
+
+CREATE TABLE [dbo].[product](
+	[productName] [varchar](30) NULL,
+	[productModel] [varchar](30) NULL,
+	[productNumber] [varchar](30) NULL,
+	[productPrice] [varchar](6) NULL
+) ON [PRIMARY]
+
+GO

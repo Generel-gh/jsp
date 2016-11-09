@@ -1,0 +1,10 @@
+USE [EIMS]
+GO
+CREATE TABLE [dbo].[client](
+	[clientName] [varchar](10) NULL,
+	[clientTelephone] [varchar](6) NULL,
+	[clientAddress] [varchar](30) NULL,
+	[clirentEmail] [varchar](30) NULL
+) ON [PRIMARY]
+
+GO

@@ -1,0 +1,14 @@
+USE [EIMS]
+GO
+
+
+CREATE TABLE [dbo].[contact](
+	[clientName] [varchar](10) NULL,
+	[contactName] [varchar](30) NULL,
+	[contactContents] [varchar](255) NULL,
+	[contactStart] [varchar](6) NULL,
+	[contactEnd] [varchar](6) NULL,
+	[StaffName] [varchar](30) NULL
+) ON [PRIMARY]
+
+GO

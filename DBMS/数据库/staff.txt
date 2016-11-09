@@ -1,0 +1,18 @@
+USE [EIMS]
+GO
+
+CREATE TABLE [dbo].[staff](
+	[staffName] [varchar](30) NULL,
+	[staffSex] [varchar](2) NULL,
+	[staffAge] [varchar](2) NULL,
+	[staffEducation] [varchar](10) NULL,
+	[stadddepartment] [varchar](10) NULL,
+	[staffData] [varchar](6) NULL,
+	[staffDuty] [varchar](10) NULL,
+	[staffWage] [varchar](6) NULL
+) ON [PRIMARY]
+
+GO
+
+
+

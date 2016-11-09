@@ -1,0 +1,11 @@
+USE [EIMS]
+GO
+
+CREATE TABLE [dbo].[user](
+	[userName] [varchar](10) NULL,
+	[password] [varchar](30) NULL
+) ON [PRIMARY]
+
+GO
+
+
